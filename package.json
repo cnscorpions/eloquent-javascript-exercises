@@ -1,0 +1,12 @@
+{
+  "name": "eloquent-javascript-exercises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "git": "git add . && git commit -m",
+    "postgit": "git pull && git push && git status"
+  },
+  "repository": "git@github.com:cnscorpions/eloquent-javascript-exercises.git",
+  "author": "<justin.coding@gmail.com>",
+  "license": "MIT"
+}
