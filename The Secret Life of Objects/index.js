@@ -81,12 +81,13 @@ killerRabbit.teeth = "long, sharp and bloody"
 
 // console.log("toString" in Object.create(null)) // false
 
-// let ages = new Map();
-// ages.set("Boris", 39)
-// ages.set("Liang", 22)
-// ages.set("Julia", 62)
+let ages = new Map();
+ages.set("Boris", 39)
+ages.set("Liang", 22)
+ages.set("Julia", 62)
+ages.set("toString", 123)
 
-// console.log(ages)
+console.log(ages.get("toString"))
 
 // console.log({ x: 1 }.toString())
 // console.log([1, 2].toString())
